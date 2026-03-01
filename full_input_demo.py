@@ -73,7 +73,7 @@ def main():
             
            
             
-            response = requests.post('https://web-production-24857.up.railway.app/predict/', json={'data': user_input})
+            response = requests.post('https://web-production-93506.up.railway.app/predict/', json={'data': user_input})
                         
             
             # Check if the request was successful
