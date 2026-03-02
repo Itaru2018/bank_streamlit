@@ -12,7 +12,6 @@ default_page = st.session_state.get('page', 'About the App')
 page_names = ['Demo (4 Features)', 'Full Input', 'About the App', 'About the Project', 'Contact']
 st.sidebar.title('Navigation')
 page = st.sidebar.radio('Choose a page', page_names, index=page_names.index(default_page), key='page')
-st.session_state.page = page
 
 # Run selected page
 if page == 'Demo (4 Features)':
