@@ -94,7 +94,7 @@ def main():
                 st.error('Server returned an error')
         
         except requests.exceptions.ConnectionError:
-            st.error('Could not connect to FAST API backend Is it running on http://localhost:8000?')
+            st.error('Could not connect to FAST API backend Is it running on https://web-production-93506.up.railway.app/predict/')
 
 # Allow this file to be tested on its own
 if __name__ == "__main__":
