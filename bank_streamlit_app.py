@@ -15,7 +15,7 @@ page = st.sidebar.radio('Choose a page', page_names, index=page_names.index(defa
 st.session_state.page = page
 
 # Save the selected page into session state
-st.session_state.page = page
+# st.session_state.page = page
 
 # Run selected page
 if page == 'Demo (4 Features)':
